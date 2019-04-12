@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/dummy_jen.dir/dummy.cpp.o  -o dummy_jen ../libjen_s.a 
