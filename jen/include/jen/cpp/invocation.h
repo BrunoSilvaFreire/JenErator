@@ -16,6 +16,15 @@ namespace jen {
         CXXType *getType() const {
             return type;
         }
+
+        std::string toString() const override {
+            std::string str = "CXXParameter(";
+            str += name;
+            str += ", ";
+            str += type->getName();
+            str += ")";
+            return str;
+        }
     };
 
     class CXXInvocable {

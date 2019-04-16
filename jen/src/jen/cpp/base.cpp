@@ -12,4 +12,11 @@ namespace jen {
     }
 
     CXXType::CXXType(const std::string &name) : CXXNamed(name) {}
+
+    std::string CXXType::toString() const {
+        std::string str = "CXXType(";
+        str += name;
+        str += ')';
+        return str;
+    }
 }

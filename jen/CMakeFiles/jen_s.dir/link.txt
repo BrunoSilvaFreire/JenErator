@@ -1,2 +1,0 @@
-/usr/bin/ar qc libjen_s.a  CMakeFiles/jen_s.dir/src/jen/cpp/cpp.cpp.o CMakeFiles/jen_s.dir/src/jen/cpp/base.cpp.o CMakeFiles/jen_s.dir/src/jen/cpp/members.cpp.o CMakeFiles/jen_s.dir/src/jen/parsing.cpp.o CMakeFiles/jen_s.dir/tests/dummy.cpp.o CMakeFiles/jen_s.dir/src/jen/tokenization.cpp.o
-/usr/bin/ranlib libjen_s.a

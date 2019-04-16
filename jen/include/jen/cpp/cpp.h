@@ -22,11 +22,29 @@ namespace jen {
 
     };
 
+    class CXXGenericPreprocessor : public CXXNamed {
+    private:
+        std::string content;
+    public:
+        CXXGenericPreprocessor(
+                const std::string &name,
+                std::string content
+        );
+
+        const std::string &getContent() const;
+    };
+
     class CXXTranslationUnit {
     private:
-        std::vector<void *> elements;
+        std::vector<CXXElement *> elements;
     public:
-        const std::vector<void *> &getElements() const;
+        CXXTranslationUnit();
+
+        std::vector<CXXElement *> &getElements();
+
+
     };
+
+
 }
 #endif

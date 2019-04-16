@@ -1,3 +1,5 @@
+#include <utility>
+
 #ifndef JENERATOR_MEMBERS_H
 #define JENERATOR_MEMBERS_H
 
@@ -32,16 +34,16 @@ namespace jen {
 
     class CXXMethod : public CXXMember, public CXXInvocable {
     private:
-        CXXType *returnType;
+        std::string returnType;
     public:
         explicit CXXMethod(
                 CXXAccessModifier modifier,
                 const std::string &name,
                 const std::vector<CXXParameter> &parameters,
-                CXXType *returnType
-        ) : returnType(returnType), CXXMember(name, modifier), CXXInvocable(parameters) {}
+                std::string returnType
+        ) : returnType(std::move(returnType)), CXXMember(name, modifier), CXXInvocable(parameters) {}
 
-        CXXType *getReturnType() const {
+        std::string getReturnType() const {
             return returnType;
         }
     };

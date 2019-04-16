@@ -2,6 +2,7 @@
 
 #ifndef JENERATOR_PARSING_H
 #define JENERATOR_PARSING_H
+#define TEST()
 
 #include <istream>
 #include <filesystem>
