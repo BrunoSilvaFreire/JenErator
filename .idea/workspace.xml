@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.8994083" />
+  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -34,55 +37,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af833dd2-4f0a-4036-b863-71422146bb32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jen/include/jen/utilities/strings.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jen/src/jen/jen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jen/src/jen/utilities/strings.cpp" afterDir="false" />
+    <list default="true" id="af833dd2-4f0a-4036-b863-71422146bb32" name="Default Changelist" comment="&gt; Google C++&#10;&gt; Macro parsing">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JenErator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JenErator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/bruno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/bruno.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/jen_s.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/Jen.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/Jen.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jen/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/include/jen/cpp/base.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/cpp/base.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/include/jen/cpp/cpp.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/cpp/cpp.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/include/jen/cpp/invocation.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/cpp/invocation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/include/jen/cpp/members.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/cpp/members.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/include/jen/jen.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/jen.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/include/jen/parsing.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/parsing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/include/jen/utilities/strings.h" beforeDir="false" afterPath="$PROJECT_DIR$/jen/include/jen/utilities/strings.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/src/jen/cpp/base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/cpp/base.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/src/jen/cpp/members.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/cpp/members.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/src/jen/jen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/jen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/src/jen/parsing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/parsing.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/src/jen/tokenization.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/tokenization.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/dummy_jen.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jen/tests/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/src/jen/utilities/strings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/src/jen/utilities/strings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jen/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jen/tests/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jen/tests/dummy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jen/tests/dummy.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -115,59 +98,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jen/src/jen/parsing.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/cpp.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#49#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jen/tests/dummy.cpp">
+        <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-392">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jen/tests/CMakeLists.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jen/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jen/src/jen/tokenization.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
+            <state relative-caret-position="282">
+              <caret line="102" column="84" selection-start-line="102" selection-start-column="84" selection-end-line="102" selection-end-column="84" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -233,22 +189,22 @@
         <option value="$PROJECT_DIR$/cmake/Jen.cmake" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jen/include/jen/cpp/members.h" />
-        <option value="$PROJECT_DIR$/jen/include/jen/cpp/base.h" />
         <option value="$PROJECT_DIR$/jen/src/jen/cpp/base.cpp" />
         <option value="$PROJECT_DIR$/jen/include/jen/cpp/invocation.h" />
         <option value="$PROJECT_DIR$/jen/include/jen/jen.h" />
         <option value="$PROJECT_DIR$/jen/src/jen/jen.cpp" />
-        <option value="$PROJECT_DIR$/jen/include/jen/cpp/cpp.h" />
         <option value="$PROJECT_DIR$/jen/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jen/include/jen/parsing.h" />
         <option value="$PROJECT_DIR$/jen/include/jen/utilities/strings.h" />
         <option value="$PROJECT_DIR$/jen/src/jen/utilities/strings.cpp" />
         <option value="$PROJECT_DIR$/jen/tests/dummy.cpp" />
         <option value="$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h" />
-        <option value="$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jen/src/jen/tokenization.cpp" />
         <option value="$PROJECT_DIR$/jen/src/jen/parsing.cpp" />
+        <option value="$PROJECT_DIR$/jen/include/jen/cpp/base.h" />
+        <option value="$PROJECT_DIR$/jen/include/jen/cpp/cpp.h" />
+        <option value="$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp" />
       </list>
     </option>
   </component>
@@ -262,7 +218,7 @@
     <option name="height" value="1061" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -272,11 +228,6 @@
             <path>
               <item name="JenErator" type="b2602c69:ProjectViewProjectNode" />
               <item name="JenErator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JenErator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JenErator" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JenErator" type="b2602c69:ProjectViewProjectNode" />
@@ -335,18 +286,85 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="codeStyles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dictionaries" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="include" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="include" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="include" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JenErator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CLionProjects/JenErator" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vulkan-Loader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -409,22 +427,25 @@
       <workItem from="1555439664431" duration="10000" />
       <workItem from="1555439918894" duration="41000" />
       <workItem from="1555443097835" duration="2698000" />
+      <workItem from="1556625729993" duration="29000" />
+      <workItem from="1556625813182" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31805000" />
+    <option name="totallyTimeSpent" value="32257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1924" height="1054" extended-state="6" />
+    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1696905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17350332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49944568" weight="0.3293348" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48292422" visible="true" weight="0.5258621" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48226163" weight="0.525627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,9 +454,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="TeamCity" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.37728193" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5170758" side_tool="true" visible="true" weight="0.5258621" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5166297" side_tool="true" visible="true" weight="0.34133044" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3286004" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.48452508" weight="0.34159482" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.48337027" visible="true" weight="0.34133044" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -444,6 +465,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&gt; Google C++&#10;&gt; Macro parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="&gt; Google C++&#10;&gt; Macro parsing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/library.cpp" />
@@ -479,20 +504,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/8.2.1/bits/fs_path.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="255" selection-start-line="255" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/8.2.1/vector">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/8.2.1/bits/fs_path.h" />
+    <entry file="file:///usr/include/c++/8.2.1/vector" />
     <entry file="file://$PROJECT_DIR$/jen/src/jen/cpp/base.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -500,38 +513,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jen/tests/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/include/c++/8.2.1/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="338" column="10" selection-start-line="338" selection-start-column="10" selection-end-line="338" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/8.2.1/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="2979" column="6" selection-start-line="2979" selection-start-column="6" selection-end-line="2979" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/tests/Makefile" />
+    <entry file="file:///usr/include/c++/8.2.1/bits/stl_vector.h" />
+    <entry file="file:///usr/include/c++/8.2.1/bits/basic_string.h" />
     <entry file="file://$PROJECT_DIR$/jen/src/jen/utilities/strings.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jen/src/jen/jen.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#76#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,23 +536,6 @@
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding>
             <element signature="e#57#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/base.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/cpp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#49#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,6 +570,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="384" column="17" selection-start-line="384" selection-start-column="17" selection-end-line="384" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/tests/dummy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jen/tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -613,58 +598,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="384" column="17" selection-start-line="384" selection-start-column="17" selection-end-line="384" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jen/tests/dummy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jen/src/jen/tokenization.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
+        <state relative-caret-position="233">
+          <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/bruno.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/src/jen/jen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#76#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jen/src/jen/parsing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="187">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/cpp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#49#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/include/jen/cpp/preprocessors.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jen/src/jen/cpp/cpp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="102" column="84" selection-start-line="102" selection-start-column="84" selection-end-line="102" selection-end-column="84" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

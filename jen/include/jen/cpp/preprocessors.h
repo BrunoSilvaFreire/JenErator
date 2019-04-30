@@ -38,7 +38,7 @@ namespace jen {
     private:
         std::string value;
     public:
-        CXXMacroConstantDefinition(const std::string &name, const std::string &value);
+      CXXMacroConstantDefinition(const std::string &name, std::string value);
 
         std::string toString() const override;
     };
